@@ -5,6 +5,8 @@
  */
 package jobsheet6dynamicprogramming;
 
+import java.util.Scanner;
+
 
 /**
  *
@@ -19,5 +21,14 @@ public static void main(String[] args){
     String identitas = "Chatlea Cinta Putri Widyanto / XRPL5 / 08";
     tampilJudul(identitas);
     
+    Scanner baca = new Scanner(System.in);
+        String jenisbarang[] = new String[]{"A", "B", "C", "D", "E"}; 
+        int berat[] = new int[]{4, 5, 2, 3, 7};
+        int bayaran[] = new int[]{5000, 7000, 2000, 3000, 10000};
+        int harga;
+        int total = 0;
+        int jumlah;
+        System.out.print("Masukkan berat : ");
+        int beratmuatan = baca.nextInt();
 }
 }
