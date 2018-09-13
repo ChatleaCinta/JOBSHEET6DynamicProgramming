@@ -12,6 +12,15 @@ package jobsheet6dynamicprogramming;
 public class Tugas1 {
     private static void tampilJudul(String identitas){
         System.out.println("Identitas : "+ identitas);
+    }
+public static void main(String[] args){
+           // TODO code application logic here
+    String identitas = "Chatlea Cinta Putri Widyanto / XRPL5 / 08";
+    tampilJudul(identitas); 
     
+        int uang = 421300;
+        int pecahan[] = new int[]{5000,2000,1000,500,100};
+        int jumlah;        
         }
     }
+
