@@ -30,5 +30,18 @@ public static void main(String[] args){
         int jumlah;
         System.out.print("Masukkan berat : ");
         int beratmuatan = baca.nextInt();
+        
+               
+             for(int i = 0; i < jenisbarang.length; i++){
+        if( beratmuatan >= berat [i]){
+            jumlah = beratmuatan / berat[i];
+            beratmuatan = beratmuatan % berat[i];
+            harga = jumlah * bayaran[i];
+            total += harga;
+            System.out.println("Barang " + jenisbarang[i] + " sebanyak " + jumlah);
+            System.out.println("Bayaran : Rp " + harga);           
+}
+}
+             System.out.println("Total bayaran : Rp " + total);
 }
 }
